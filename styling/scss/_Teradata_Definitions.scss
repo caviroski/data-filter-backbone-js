@@ -1,0 +1,21 @@
+// @author: igor.caviroski
+//
+// Definitions for styling
+//
+
+/* Fonts */
+
+$teradataFontFamily: Arial, sans-serif;
+
+$teradataFontSize: 14px;
+$teradataFontSizeSmall: $teradataFontSize - 4; // 10px
+$teradataFontSizeBigger: $teradataFontSize + 2; // 16px
+$teradataFontSizeBig: $teradataFontSize + 4; // 18px
+
+$teradataFontWeight: 200;
+$teradataFontWeightBold: $teradataFontWeight + 500; // 700
+
+/* Colors */
+
+$teradataColor1: #00ff00;
+$teradataColor2: #ff0000;

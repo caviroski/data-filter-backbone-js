@@ -1,0 +1,129 @@
+// @author: igor.caviroski
+//
+// Styling for the Home page
+//
+// ==========================================================================
+
+@import "Teradata_Definitions";
+
+// ==========================================================================
+
+// List Container
+
+.list-container {
+
+    float: left;
+    padding: 20px;
+
+    #user-table {
+        margin-top: 14px;
+        border: 1px solid black;
+        border-collapse: collapse;
+        td {
+            border: 1px solid black;
+            padding: 5px 15px;
+            font-weight: $teradataFontWeightBold;
+        }
+        tbody {
+            td {
+                cursor: pointer;
+                font-weight: $teradataFontWeight;
+            }
+        }
+    }
+}
+
+// Show Profile Container
+
+.show-profile-container {
+
+    float: left;
+    padding: 20px;
+
+    table {
+        border: 1px solid black;
+        border-collapse: collapse;
+        margin: 14px 0;
+        td {
+            border: 1px solid black;
+            padding: 5px 15px;
+            font-weight: $teradataFontWeightBold;
+        }
+        tbody {
+            td {
+                cursor: pointer;
+                font-weight: $teradataFontWeight;
+            }
+        }
+    }
+}
+
+// Search by birth place
+
+.search-container {
+
+    float: left;
+    padding: 20px;
+
+    .input-container {
+        padding: 18px 0;
+    }
+
+    table {
+        border: 1px solid black;
+        border-collapse: collapse;
+        margin: 14px 0;
+        td {
+            border: 1px solid black;
+            padding: 5px 15px;
+            font-weight: $teradataFontWeightBold;
+        }
+        tbody {
+            td {
+                font-weight: $teradataFontWeight;
+            }
+        }
+    }
+
+}
+
+// Add New User Profile
+
+.add-user-container {
+
+    float: left;
+    padding: 20px 0 0 40px;
+
+    form {
+
+        padding-top: 10px;
+
+        label {
+            display: block;
+            padding-bottom: 5px;
+        }
+
+        input {
+            display: block;
+            margin-bottom: 20px;
+        }
+
+    }
+
+}
+
+// Validation styling
+.validation-passed {
+    border-color: $teradataColor1;
+}
+
+.validation-failed {
+    border-color: $teradataColor2;
+}
+
+// Title for the sections styling
+.title {
+    font-size: $teradataFontSizeBigger;
+    font-weight: $teradataFontWeightBold;
+    text-transform: uppercase;
+}

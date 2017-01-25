@@ -1,0 +1,24 @@
+// @author: igor.caviroski
+//
+// Common styling
+//
+// ==========================================================================
+
+@import "Teradata_Definitions";
+
+// ==========================================================================
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 100%;
+}
+
+body {
+    font-family: $teradataFontFamily;
+    font-size: $teradataFontSize;
+}

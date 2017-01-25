@@ -1,0 +1,28 @@
+{
+  "users":[
+    {
+      "name":"Mick",
+      "surname":"Jagger",
+      "age":36,
+      "born":"England"
+    },
+    {
+      "name":"Beyonce Giselle",
+      "surname":"Knowles-Carter",
+      "age":33,
+      "born":"United States"
+    },
+    {
+      "name":"Freddie",
+      "surname":"Mercury",
+      "age":45,
+      "born":"Tanzania"
+    },
+    {
+      "name":"James Marshall",
+      "surname":"Hendrix",
+      "age":27,
+      "born":"United States"
+    }
+  ]
+}

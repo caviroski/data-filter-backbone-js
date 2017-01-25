@@ -1,0 +1,70 @@
+/* Fonts */
+/* Colors */
+.list-container {
+  float: left;
+  padding: 20px; }
+  .list-container #user-table {
+    margin-top: 14px;
+    border: 1px solid black;
+    border-collapse: collapse; }
+    .list-container #user-table td {
+      border: 1px solid black;
+      padding: 5px 15px;
+      font-weight: 700; }
+    .list-container #user-table tbody td {
+      cursor: pointer;
+      font-weight: 200; }
+
+.show-profile-container {
+  float: left;
+  padding: 20px; }
+  .show-profile-container table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: 14px 0; }
+    .show-profile-container table td {
+      border: 1px solid black;
+      padding: 5px 15px;
+      font-weight: 700; }
+    .show-profile-container table tbody td {
+      cursor: pointer;
+      font-weight: 200; }
+
+.search-container {
+  float: left;
+  padding: 20px; }
+  .search-container .input-container {
+    padding: 18px 0; }
+  .search-container table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: 14px 0; }
+    .search-container table td {
+      border: 1px solid black;
+      padding: 5px 15px;
+      font-weight: 700; }
+    .search-container table tbody td {
+      font-weight: 200; }
+
+.add-user-container {
+  float: left;
+  padding: 20px 0 0 40px; }
+  .add-user-container form {
+    padding-top: 10px; }
+    .add-user-container form label {
+      display: block;
+      padding-bottom: 5px; }
+    .add-user-container form input {
+      display: block;
+      margin-bottom: 20px; }
+
+.validation-passed {
+  border-color: lime; }
+
+.validation-failed {
+  border-color: red; }
+
+.title {
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase; }
